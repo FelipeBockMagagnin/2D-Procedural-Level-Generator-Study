@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4119453294147092}
   - component: {fileID: 212447082827735234}
   m_Layer: 0
-  m_Name: Room LRT
+  m_Name: tileset_0 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
