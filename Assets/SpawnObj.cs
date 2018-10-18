@@ -9,7 +9,8 @@ public class SpawnObj : MonoBehaviour {
 	
 	void Start () {
 		int randomBlock = Random.Range(0,tiles.Length);	
-		Instantiate(tiles[randomBlock], transform.position, Quaternion.identity);
+		GameObject instance = (GameObject)Instantiate(tiles[randomBlock], transform.position, Quaternion.identity);
+		instance.transform.parent = transform;
 	}
 	
 	
